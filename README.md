@@ -23,3 +23,13 @@
 - > git add .
 - > git commit -m "test"
 - > git push -u origin main
+
+###############
+Install Styled Components https://react.school/styled-components https://styled-components.com/docs/basics
+
+- > npm install --save styled-components
+
+###############
+Install react router dom
+
+- > npm install react-router-dom
