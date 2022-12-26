@@ -44,3 +44,14 @@ imp urls
 
 1. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 2. Comment Code Block Ctrl+K+C/Ctrl+K+U
+3. https://www.geeksforgeeks.org/html5-semantics/
+4. https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/
+
+Notes on components
+
+1. <section> represents section of document. <div> is more generic . They can be same in certain context
+2. A file can only have one default export, but it can have numerous named exports!
+   import { Profile } from './Gallery.js'; -- named export
+   export function Profile() -- in the source file
+
+3. The ability to pass child components to main components will give flexibility. At runtime, any child component can be passed to main component.

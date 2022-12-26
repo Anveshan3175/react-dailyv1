@@ -14,6 +14,9 @@ function App() {
         <li>
           <Link to="/sampleInputText">Sample Input Text</Link>
         </li>
+        <li>
+          <Link to="/sampleSection">Sample Section</Link>
+        </li>
       </ul>
     </nav>
   );
