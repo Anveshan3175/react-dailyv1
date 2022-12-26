@@ -51,7 +51,8 @@ Notes on components
 
 1. <section> represents section of document. <div> is more generic . They can be same in certain context
 2. A file can only have one default export, but it can have numerous named exports!
-   import { Profile } from './Gallery.js'; -- named export
-   export function Profile() -- in the source file
+
+   1. import { Profile } from './Gallery.js'; -- named export
+   2. export function Profile() -- in the source file
 
 3. The ability to pass child components to main components will give flexibility. At runtime, any child component can be passed to main component.
