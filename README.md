@@ -46,6 +46,7 @@ imp urls
 2. Comment Code Block Ctrl+K+C/Ctrl+K+U
 3. https://www.geeksforgeeks.org/html5-semantics/
 4. https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/
+5. https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces
 
 Notes on components
 
@@ -55,4 +56,9 @@ Notes on components
    1. import { Profile } from './Gallery.js'; -- named export
    2. export function Profile() -- in the source file
 
-3. The ability to pass child components to main components will give flexibility. At runtime, any child component can be passed to main component.
+3. The ability to pass child components to main components will give flexibility. At runtime, any child component can be passed to main component. Also resuability.
+4. {} are used to passed names in JSX. {{ }} are used to pass objects and styles.
+5. props can be
+   1. name {}
+   2. objects {{}}
+   3. child components {children}
