@@ -33,3 +33,11 @@ Install Styled Components https://react.school/styled-components https://styled-
 Install react router dom
 
 - > npm install react-router-dom
+
+###############
+---> Refer external css . Write css file. Names caps
+---> Refer the css in js like - import "../css/Common.css";
+---> Use className - className="Login"
+
+imp urls
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox

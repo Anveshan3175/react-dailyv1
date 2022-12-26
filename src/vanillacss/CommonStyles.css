@@ -1,0 +1,23 @@
+.appLayout {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.linksFlex {
+  flex: 1 1 auto;
+}
+
+.componentsFlex {
+  flex: 9 1 auto;
+}
+
+.padLeftAndTop {
+  padding-left: "50px";
+  padding-top: "900px";
+}
+
+.padLeft {
+  padding-left: "50px";
+}
