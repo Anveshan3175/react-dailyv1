@@ -7,6 +7,8 @@
 
 .linksFlex {
   flex: 1 1 auto;
+  /* border-right: dashed;
+  border-color: coral; */
 }
 
 .componentsFlex {
