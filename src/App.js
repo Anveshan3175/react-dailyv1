@@ -17,6 +17,22 @@ function App() {
         <li>
           <Link to="/sampleSection">Sample Section</Link>
         </li>
+        <li>
+          <Link to="/sampleStringsList">Sample Strings List</Link>
+        </li>
+        <li>
+          <Link to="/sampleObjectsList">Sample Objects List</Link>
+        </li>
+        <li>
+          <Link to="/sampleObjectsDetailsList">
+            Sample Objects Details List
+          </Link>
+        </li>
+        <li>
+          <Link to="/sampleObjectsFilterList">
+            Sample Objects Details Filter
+          </Link>
+        </li>
       </ul>
     </nav>
   );
