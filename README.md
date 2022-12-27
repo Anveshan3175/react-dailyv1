@@ -24,6 +24,14 @@
 - > git commit -m "test"
 - > git push -u origin main
 
+7. To pull react project into another new system
+- > Open terminal in VSCode and go to the folder wherein you want the project to be housed.
+- > $ git clone {the url to the GitHub repo}
+- > cd <project folder that is cloned in above step>
+- > npm install
+- > npm start
+   project should start running now.
+   
 ###############
 Install Styled Components https://react.school/styled-components https://styled-components.com/docs/basics
 
