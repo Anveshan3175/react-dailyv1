@@ -7,6 +7,7 @@ import SampleStringsList from "./sample-list-strings";
 import SampleObjectsList from "./sample-list-objects";
 import SampleObjectsDetailsList from "./sample-list-objects-details";
 import SampleObjectsDetailsFilter from "./sample-list-objects-filters";
+import SampleDropdown from "./sample-dropdown";
 
 function SampleRoutes() {
   return (
@@ -25,6 +26,8 @@ function SampleRoutes() {
         path="/sampleObjectsFilterList"
         element={<SampleObjectsDetailsFilter />}
       />
+
+      <Route path="/sampleDropdown" element={<SampleDropdown />} />
     </Routes>
   );
 }

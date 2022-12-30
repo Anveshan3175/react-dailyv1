@@ -33,6 +33,9 @@ function App() {
             Sample Objects Details Filter
           </Link>
         </li>
+        <li>
+          <Link to={"/sampleDropdown"}>Sample Dropdown</Link>
+        </li>
       </ul>
     </nav>
   );
