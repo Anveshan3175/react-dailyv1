@@ -1,6 +1,7 @@
 ## react-dailyv1 app
 
 1. Create repo in the GIT react-dailyv1 (keep url handy)
+   Dont add readme in Github
 2. Create same project in your desktop
    npx create-react-app react-dailyv1
 3. Open react-dailyv1 in VSCode
@@ -14,6 +15,7 @@
 - > git commit -m 'first commit'
 - > git branch -M main
 - > git remote add origin https://github.com/Anveshan3175/react-dailyv1.git
+- > git push -u origin main
 
 6. To refresh
 
@@ -25,13 +27,14 @@
 - > git push -u origin main
 
 7. To pull react project into another new system
+
 - > Open terminal in VSCode and go to the folder wherein you want the project to be housed.
 - > $ git clone {the url to the GitHub repo}
 - > cd <project folder that is cloned in above step>
 - > npm install
 - > npm start
-   project should start running now.
-   
+  > project should start running now.
+
 ###############
 Install Styled Components https://react.school/styled-components https://styled-components.com/docs/basics
 
